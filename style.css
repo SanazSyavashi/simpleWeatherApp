@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.location,
+.temprature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temprature {
+    flex-direction: column;
+}
+
+.farenhite-degreee,
+.c_degree {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.farenhite-degreee span,
+.c_degree span {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.farenhite-degreee h2,
+.c_degree h2 {
+    font-size: 40px;
+}
